@@ -14,6 +14,10 @@
     <CreateInPlace>true</CreateInPlace>
     <Icon>__TemplateIcon.ico</Icon>
     <PreviewImage>__PreviewImage.ico</PreviewImage>
+	<LanguageTag>VB</LanguageTag>
+	<PlatformTag>Windows</PlatformTag>
+	<PlatformTag>Linux</PlatformTag>
+	<ProjectTypeTag>Web</ProjectTypeTag>
   </TemplateData>
   <TemplateContent>
     <Project TargetFileName="TestApi1.vbproj" File="TestApi1.vbproj" ReplaceParameters="true">
