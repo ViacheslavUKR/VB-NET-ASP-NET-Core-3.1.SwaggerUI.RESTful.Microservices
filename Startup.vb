@@ -16,10 +16,10 @@ Imports Microsoft.OpenApi.Models
 
 Public Class Startup
     Public Sub New(ByVal configuration As IConfiguration)
-        configuration = configuration
+        _Configuration = configuration
     End Sub
 
-    Public ReadOnly Property Configuration As IConfiguration
+    Public ReadOnly Property _Configuration As IConfiguration
 
     Public Sub ConfigureServices(ByVal services As IServiceCollection)
         services.
